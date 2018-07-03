@@ -1,0 +1,18 @@
+package myThreads;
+/*
+ * Threading using extended Thread class
+ * 
+ * Pay attention to sleep on Thread-0
+ */
+public class MyThread extends Thread {
+	public void run(){
+		if(this.getName() == "Thread-0"){
+			try{
+				MyThread.sleep(1000,0);
+			} catch( InterruptedException e){
+				MyThread.currentThread().interrupt();
+			}
+		}
+		System.out.println("My thread running..."+this.getName());
+	}
+}

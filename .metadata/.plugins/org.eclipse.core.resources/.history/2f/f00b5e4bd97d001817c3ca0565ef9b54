@@ -1,0 +1,23 @@
+package myThreads;
+
+public class ThreadDemo {
+
+	public ThreadDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyThread myRunnableThread = new MyThread();
+		Thread t = new Thread(myRunnableThread);
+		t.start();
+		
+		
+
+	}
+
+}

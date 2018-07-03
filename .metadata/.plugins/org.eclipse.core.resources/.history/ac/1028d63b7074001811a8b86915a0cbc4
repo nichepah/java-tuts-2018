@@ -1,0 +1,15 @@
+package myJavaTuts;
+/*
+ * Available from jdk5 onwards
+ */
+public class VariableLenArgs {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

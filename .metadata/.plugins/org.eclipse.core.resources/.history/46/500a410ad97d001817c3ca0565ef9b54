@@ -1,0 +1,7 @@
+package myThreads;
+/*
+ * Threading using extended Thread class
+ */
+public class MyThread extends Thread {
+	
+}

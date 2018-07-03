@@ -1,0 +1,16 @@
+package myThreads;
+/*
+ * Runnable definition 
+ * 
+ */
+public class MyRunnable implements Runnable {
+
+	public MyRunnable() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void run() {
+		System.out.println("from Runnable:run ");
+	}
+}

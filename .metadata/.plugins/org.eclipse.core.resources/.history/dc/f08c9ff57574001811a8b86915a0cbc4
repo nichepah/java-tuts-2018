@@ -1,0 +1,23 @@
+package myJavaTuts;
+/*
+ * Used in MyInheritance 
+ * Refer Class B also
+ */
+public class A {
+	public int i; // available to all classes
+	private int j; // private to A only
+	
+	// constructor
+	A(int i, int j){
+		this.i = i;
+		this.j = j;
+	}
+	
+	public void showA(){
+		System.out.println("i : "+ i + " and j : "+j);
+	} 
+	
+	private int getJ(){
+		return j;
+	}
+}

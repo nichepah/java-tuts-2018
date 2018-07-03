@@ -1,0 +1,12 @@
+package myThreads;
+/*
+ * Threading using extended Thread class
+ */
+public class MyThread extends Thread {
+	public void run(){
+		if(this.getName() == "Thread-0"){
+			this.sleep(1000, 0);
+		}
+		System.out.println("My thread running..."+this.getName());
+	}
+}

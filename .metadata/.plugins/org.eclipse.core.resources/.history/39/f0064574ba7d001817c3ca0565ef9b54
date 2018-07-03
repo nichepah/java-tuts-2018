@@ -1,0 +1,37 @@
+package myThreads;
+/*
+ * Threading using Runnable
+ */
+public class MyThread implements Runnable {
+	Thread myThread;
+
+	public MyThread() {
+		// TODO Auto-generated constructor stub
+		myThread = new Thread(this, "my first thread");
+		System.out.println("Child Thread " + myThread);
+		myThread.start(); 
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		try{
+			for(int i=0; i<5; i++){
+				System.out.println();
+				///////////////
+				///////////////
+			}
+		}catch (InterruptedException e) {
+			System.out.println("Main thread interrupted");
+		}
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

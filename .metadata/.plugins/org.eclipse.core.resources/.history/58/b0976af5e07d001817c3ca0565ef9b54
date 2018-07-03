@@ -1,0 +1,9 @@
+package myThreads;
+
+public class NewThread {
+
+	public NewThread() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

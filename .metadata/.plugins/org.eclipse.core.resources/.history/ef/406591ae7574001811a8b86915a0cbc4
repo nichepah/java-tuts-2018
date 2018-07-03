@@ -1,0 +1,14 @@
+package myJavaTuts;
+/* 
+ * Class A is the super class of class B 
+ * 
+ */
+
+public class MyInheritance {
+	public static void main(String args[]){
+		B myB = new B(1, 3);
+		myB.sum(); // No effect, can't access A's j from B;
+		myB.showA();
+	}
+
+}

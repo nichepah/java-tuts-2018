@@ -1,0 +1,17 @@
+package myThreads;
+
+public class NewThread implements Runnable{
+	
+	String name;  // name of the thread
+	Thread t; 
+	public NewThread() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

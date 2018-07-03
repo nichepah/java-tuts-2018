@@ -1,0 +1,24 @@
+package myThreads;
+
+public class NewThread implements Runnable{
+	
+	String name;  // name of the thread
+	Thread t; 
+	
+	// constructor assigns name
+	// and starts the thread
+	public NewThread(String threadName) {
+		// TODO Auto-generated constructor stub
+		name = threadName;
+		t = new Thread(this, name);
+		System.out.println("New Thread " + t);
+		t.start(); // start the thread
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1529388074551_3" label="java-class" name="java-class">
+<item elementID="=007JavaArrays" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1527774973192_0" label="Window Working Set" name="Aggregate for window 1527774973188"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1527983323282_1" label="Window Working Set" name="Aggregate for window 1527983323282"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1528091781639_2" label="Window Working Set" name="Aggregate for window 1528091781639"/>
+</workingSetManager>

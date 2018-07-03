@@ -1,0 +1,22 @@
+package myGenerics;
+/*
+ * Demo of 2 parameterized arguments
+ */
+
+public class TestDoubleGeneric<T, U> {
+	T objT;
+	U objU;
+
+	public TestDoubleGeneric() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

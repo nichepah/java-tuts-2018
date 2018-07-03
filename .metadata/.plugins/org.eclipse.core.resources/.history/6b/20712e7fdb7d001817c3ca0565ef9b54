@@ -1,0 +1,27 @@
+package myThreads;
+/*
+ * Demonstrates threads using classes
+ * 
+ * Runnable
+ */
+
+public class ThreadDemo {
+
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Using Thread class
+		
+		MyThread myThread = new MyThread();
+		myThread.start();
+		MyThread myThread1 = new MyThread();
+		myThread1.start();
+		
+		// Using Runnable
+		
+	}
+
+}

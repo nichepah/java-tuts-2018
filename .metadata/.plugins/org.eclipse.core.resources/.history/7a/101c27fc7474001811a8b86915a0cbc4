@@ -1,0 +1,15 @@
+package myJavaTuts;
+/*
+ * Used in MyInheritance
+ * Refer to Class A also;
+ */
+public class B extends A{
+
+	B(int i, int j) {
+		super(i, j); // calls A(i, j)
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+
+}

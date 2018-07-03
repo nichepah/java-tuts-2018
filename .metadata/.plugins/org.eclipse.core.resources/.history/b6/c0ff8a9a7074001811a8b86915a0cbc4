@@ -1,0 +1,16 @@
+package myJavaTuts;
+
+public class VariableLenArgsDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		VariableLenArgs.vaTest();
+		VariableLenArgs.vaTest(100);
+		VariableLenArgs.vaTest(10, 20, 30, 40, 50);
+
+	}
+
+}

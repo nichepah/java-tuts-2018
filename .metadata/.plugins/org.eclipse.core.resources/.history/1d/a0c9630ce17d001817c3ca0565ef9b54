@@ -1,0 +1,9 @@
+package myThreads;
+
+public class NewThread implements Runnable{
+
+	public NewThread() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
